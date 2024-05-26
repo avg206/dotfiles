@@ -27,6 +27,12 @@ brew install findutils
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
+# Install newer version of ruby
+brew install ruby
+
+# Install cocoapods in Mx systems
+sudo gem install -n /usr/local/bin cocoapods
+
 # Install more recent versions of some macOS tools.
 brew install grep
 brew install openssh
