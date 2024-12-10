@@ -4,9 +4,7 @@ export PATH="$HOME/bin:$PATH";
 # Add HomeBrew version of ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH";
 
-# fnm
-export PATH="/Users/ahuseu/Library/Application Support/fnm:$PATH"
-eval "`fnm env`"
+export XDG_DATA_HOME="$HOME/.xdg"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

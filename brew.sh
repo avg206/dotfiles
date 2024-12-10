@@ -46,6 +46,7 @@ brew install git
 brew install git-lfs
 brew install ssh-copy-id
 brew install tree
+brew install difftastic
 
 # Remove outdated versions from the cellar.
 brew cleanup
