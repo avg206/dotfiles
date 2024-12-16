@@ -6,6 +6,8 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH";
 
 export XDG_DATA_HOME="$HOME/.xdg"
 
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
